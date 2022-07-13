@@ -28,7 +28,7 @@
 
                 <x-input id="password" class="block mt-1 w-full"
                                 type="password"
-                                name="password"
+             4                   name="password"
                                 required autocomplete="current-password" />
             </div>
 

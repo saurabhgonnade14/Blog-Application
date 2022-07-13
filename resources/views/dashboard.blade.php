@@ -1,22 +1,3 @@
-{{-- <x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot>
-
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 bg-white border-b border-gray-200">
-                    You're logged in!
-                </div>
-            </div>
-        </div>
-    </div>
-</x-app-layout> --}}
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -192,7 +173,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+  {{-- <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
@@ -864,7 +845,9 @@
       <!-- /.sidebar-menu -->
     </div>
     <!-- /.sidebar -->
-  </aside>
+  </aside> --}}
+
+  @include('layouts.master')
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -893,7 +876,7 @@
         <div class="row">
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-info">
+            <div class="small-box bg-danger">
               <div class="inner">
                 <h3>150</h3>
 
@@ -908,7 +891,7 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-success">
+            <div class="small-box bg-dark">
               <div class="inner">
                 <h3>53<sup style="font-size: 20px">%</sup></h3>
 
@@ -921,7 +904,7 @@
             </div>
           </div>
           <!-- ./col -->
-          <div class="col-lg-3 col-6">
+          {{-- <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
@@ -934,9 +917,9 @@
               </div>
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
-          </div>
+          </div> --}}
           <!-- ./col -->
-          <div class="col-lg-3 col-6">
+          {{-- <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
@@ -949,7 +932,8 @@
               </div>
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
-          </div>
+          </div> --}}
+
           <!-- ./col -->
         </div>
         <!-- /.row -->
@@ -1523,4 +1507,3 @@
 <script src="dist/js/pages/dashboard.js"></script>
 </body>
 </html>
-
