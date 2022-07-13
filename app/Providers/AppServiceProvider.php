@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Pagination\Paginator;
-use Illuminate\Pagination\Paginator as PaginationPaginator;
+// use Illuminate\Pagination\Paginator as PaginationPaginator;
 use Illuminate\Support\ServiceProvider;
 
 

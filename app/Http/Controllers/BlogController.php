@@ -83,9 +83,5 @@ public function show($id){
     $category_data=Category::all();
     $blog=Blog::with('category')->find($id);
     return view('blog.show', compact('blog','category_data'));
-
-
-
-
 }
 }

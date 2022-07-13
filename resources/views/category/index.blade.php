@@ -241,9 +241,9 @@
 
                         <td>
                             @if ($d->status == 1)
-                            <span class="badge badge-success">Active</span>
+                            <span class="badge badge-info">Active</span>
                             @else
-                            <span class="badge badge-danger">Inactive</span>
+                            <span class="badge badge-default">Inactive</span>
                             @endif
 
                         </td>

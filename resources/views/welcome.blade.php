@@ -46,7 +46,7 @@
                     <div class="card mb-4">
 
                         <a href="#!">
-                            <img src="{{asset('image.jpg'.@$featured_blog->profile_image)}}" width="850px" height="350px" alt="Image"/></a>
+                            <img src="{{asset('uploads/products/'.@$featured_blog->profile_image)}}" width="770px" height="700px" alt="Image"/></a>
                         <div class="card-body">
                             <div class="small text-muted">{{@$featured_blog->created_at}}</div>
                             <h2 class="card-title">{{@$featured_blog->title}}</h2>
@@ -65,9 +65,9 @@
                             <div class="card mb-4">
 
                         @if(empty(@$blog->profile_image))
-                        <img class="card-img-top" width="400px" height="250px" src="{{asset('image.jpg')}}" alt="..."/>
+                        <img class="card-img-top" width="400px" height="250px" src="{{asset('1657698929.jpg')}}" alt="..."/>
                         @else
-                        <img src="{{ asset('uploads/products/'.$blog->profile_image) }}" width="400px" height="250px">
+                        <img src="{{ asset('uploads/products/'.$blog->profile_image) }}" width="410px" height="370px">
 
                                @endif
 
@@ -189,10 +189,10 @@
                         </div>
                     </div>
                     <!-- Side widget-->
-                    <div class="card mb-4">
+                    {{-- <div class="card mb-4">
                         <div class="card-header">Side Widget</div>
                         <div class="card-body">You can put anything you want inside of these side widgets. They are easy to use, and feature the Bootstrap 5 card component!</div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

@@ -243,10 +243,11 @@
                         <td>{{$d->title}}</td>
                         <td>{{$d->description}}</td>
                         <td>
+
                             @if ($d->status == 1)
-                            Active
+                            <span class="badge badge-info">Active</span>
                             @else
-                            Inactive
+                            <span class="badge badge-default">Inactive</span>
                             @endif
 
                         </td>
